@@ -1,5 +1,6 @@
-@Register @One
+
 Feature: Register functionality scenarios
+@Register @One
 Scenario:  Verify whether the user is able to register into the application by providing all the fields
 Given I launch the application
 And I navigate to Account Registration page
