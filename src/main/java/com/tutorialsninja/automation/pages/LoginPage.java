@@ -35,5 +35,13 @@ public class LoginPage {
 	    
 	}
 	
+	
+	public static void dologin() {
+		
+		Elements.TypeText(LoginPage.emailField,Base.reader.getUsername() );
+		Elements.TypeText(LoginPage.passwordField, Base.reader.getPassword());
+		Elements.click(LoginPage.loginButton);
+	}
+	
 
 }
